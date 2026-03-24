@@ -25,6 +25,9 @@ VALUES ('std4', 'student D', 'HP', '0987654321', 'Male');
 INSERT INTO students(id, full_name, address, gender)
 VALUES ('std5', 'student E', 'HN', 'Male'),
 ('std6', 'student F', 'HN', 'Female');
+INSERT INTO students(id, full_name, address, gender)
+VALUES ('std7', 'std1', 'HN', 'Male'),
+('std8', 'std2', 'HN', 'Female');
 
 /* Cập nhật dữ liệu: UPDATE*/
 UPDATE students SET gender = 'Female' WHERE id = 'std1';
